@@ -33,9 +33,9 @@ The dataset provides valuable insights into breast cancer diagnoses, with a focu
 #### Data Analysis & Preprocessing <a id="project2-2"></a>
 The dataset includes 569 samples with 32 dimensions, comprising patient IDs, diagnosis status, and 30 tumor-related features. The dataset can be divided into three subsets, each consisting of 10 features:
 
-<div style="display: flex; justify-content: center; align-items: center; text-align: center;">
-  <img src="./Images/Project2/2-1.png" alt="Image 2-1" width=300 style="margin: 0 10px;">
-  <img src="./Images/Project2/2-2.png" alt="Image 2-2" width=360 style="margin: 0 10px;">
+<div align="center">
+  <img src="./Images/Project2/2-1.png" alt="Image 2-1" width="300" style="margin: 0 10px;">&nbsp;&nbsp;&nbsp;
+  <img src="./Images/Project2/2-2.png" alt="Image 2-2" width="360" style="margin: 0 10px;">
 </div>
 
 
@@ -71,7 +71,7 @@ To prepare the dataset for analysis, we will convert the "Diagnosis" variable in
 #### Visualization  <a id="visualization2"></a>
 After preprocessing phase, let's start with visualization and utilizing various visualization techniques to gather more concise understanding.
 
-<div style="display: flex; justify-content: center; align-items: center; text-align: center;">
+<div align="center">
   <img src="./Images/Project2/2-3.png" alt="Image 2-1" width=540 style="margin: 0 10px;">
 </div>
 
@@ -79,15 +79,15 @@ After preprocessing phase, let's start with visualization and utilizing various 
 
 Next, the analysis involves visualizing the remaining 30 features to explore their relationships. histogram visualizations are provided for the mean, standard error (SE), and worst-case features. These visualizations offer a clear view of each variable's behavior.
 
-<div style="text-align:center;">
+<div align="center">
   <img src="./Images/Project2/2-4.png" alt="Image 2-1" width=500 style="display:inline-block; margin:0 2px;">
 </div>
 
-<div style="text-align:center;">
+<div align="center">
   <img src="./Images/Project2/2-5.png" alt="Image 2-2" width=500 style="display:inline-block; margin:0 10px;">
 </div>
 
-<div style="text-align:center;">
+<div align="center">
   <img src="./Images/Project2/2-6.png" alt="Image 2-1" width=500 style="display:inline-block; margin:0 2px;">
 </div>
 
@@ -95,15 +95,15 @@ Next, the analysis involves visualizing the remaining 30 features to explore the
 
 Also, density plots were employed to provide a visual representation. These plots effectively reveal exponential behavior within various variables. For instance, the plots clearly indicate that the variables "area," "compactness," and "fractal_dimension" exhibit exponential distributions.
 
-<div style="text-align:center;">
+<div align="center">
   <img src="./Images/Project2/2-7.png" alt="Image 2-1" width=500 style="display:inline-block; margin:0 2px;">
 </div>
 
-<div style="text-align:center;">
+<div align="center">
   <img src="./Images/Project2/2-8.png" alt="Image 2-2" width=500 style="display:inline-block; margin:0 10px;">
 </div>
 
-<div style="text-align:center;">
+<div align="center">
   <img src="./Images/Project2/2-9.png" alt="Image 2-1" width=500 style="display:inline-block; margin:0 2px;">
 </div>
 
@@ -111,7 +111,7 @@ Also, density plots were employed to provide a visual representation. These plot
 
 At this stage, sufficient knowledge about the dataset has been acquired, enabling us to proceed with the visualization of a heatmap. There is a potential usage of heatmap for dimension reduction to observe the correlations between all features of the dataset.
 
-<div style="text-align:center;">
+<div align="center">
   <img src="./Images/Project2/2-10.png" alt="Image 2-1" width=600 style="display:inline-block; margin:0 2px;">
 </div>
 
@@ -120,6 +120,6 @@ At this stage, sufficient knowledge about the dataset has been acquired, enablin
 In the pursuit of feature selection, a comprehensive comparison was conducted among the subsets (mean, SE, and worst). Notably, correlations emerged within these subsets.
 This process continued iteratively until no fully correlated features, characterized by a correlation coefficient of 1, remained in the heatmap. 
 
-<div style="text-align:center;">
+<div align="center">
   <img src="./Images/Project2/2-11.png" alt="Image 2-1" width=600 style="display:inline-block; margin:0 2px;">
 </div>
