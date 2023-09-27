@@ -2,7 +2,7 @@
 ---
 
 
-This repository contains detailed explanations about different approaches that I have used in Data Visualization problems. 
+This repository contains detailed explanations of various data visualization approaches I have used to uncover hidden patterns within datasets and attributes.
 
 <u>Table of contents</u>
 =======
@@ -10,7 +10,7 @@ This repository contains detailed explanations about different approaches that I
 <!--ts-->
   - [Project 1 - Intoxication Behavior](#project-1---intoxication-behavior)
       - [Problem Statement ](#problem-statement-1)
-  - [Project 2 - Dimension Reduction](#project-2---dimension-reduction)
+  - [Project 2 - Breast Cancer Diagnosis](#project-2---dimension-reduction)
       - [Problem Statement](#problem-statement-2)
       - [Data Analysis & Preprocessing](#project2-2)
       - [Visualization](#visualization2)
@@ -25,7 +25,7 @@ Content for Problem Statement 1 goes here.
 
 
 ---
-## Project 2 - Dimension Reduction
+## Project 2 - Breast Cancer Diagnosis 
 
 #### Problem Statement <a id="problem-statement-2"></a>
 The dataset provides valuable insights into breast cancer diagnoses, with a focus on various attributes related to tumor characteristics. The main goal of this project is to detect hidden patterns between various attributes within the dataset by utilizing data visualization methods.
