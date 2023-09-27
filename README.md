@@ -79,7 +79,7 @@ Following our analysis of the accelerometer dataset, our focus now shifts to the
 
 
 <div align="center">
-  <img src="./Images/Project1/1-8.png" alt="Image 2-2" width=500 style="display:inline-block; margin:0 10px;">
+  <img src="./Images/Project1/1-8.png" alt="Image 2-2" width=700 style="display:inline-block; margin:0 10px;">
 </div>
 
 <br>
