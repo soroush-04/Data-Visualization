@@ -10,6 +10,8 @@ This repository contains detailed explanations of various data visualization app
 <!--ts-->
   - [Project 1 - Intoxication Behavior](#project-1---intoxication-behavior)
       - [Problem Statement ](#problem-statement-1)
+      - [Data Analysis & Preprocessing](#project1-2)
+      - [Visualization](#visualization1)
   - [Project 2 - Breast Cancer Diagnosis](#project-2---dimension-reduction)
       - [Problem Statement](#problem-statement-2)
       - [Data Analysis & Preprocessing](#project2-2)
@@ -20,8 +22,82 @@ This repository contains detailed explanations of various data visualization app
 
 ## Project 1 - Intoxication Behavior
 #### Problem Statement <a id="problem-statement-1"></a>
-Content for Problem Statement 1 goes here.
+In the realm of public health and safety, the issue of intoxication behavior poses significant challenges. Understanding and effectively addressing this problem is crucial for ensuring the well-being of individuals and communities alike. The main focus of this data visualization project is on detecting hidden patterns in intoxication behavior data. By uncovering these patterns, we aim to provide valuable insights for improving public health and safety measures.
 
+#### Data Analysis & Preprocessing <a id="project1-2"></a>
+
+This dataset forms the basis of a research study conducted with 13 participants, representing a substantial and intricate dataset. The primary challenge in visualizing this dataset lies in the division of valuable data between two distinct datasets: accelerometer and TAC (Transdermal Alcohol Content). The accelerometer dataset comprises 14,057,567 records across five dimensions, encompassing Participant ID (PID), time, and participant acceleration in the X, Y, and Z directions. The accelerometer data was collected using mobile devices for each participant. Conversely, the TAC dataset contains PID and TAC values at specific timestamps, representing the Transdermal Alcohol Content, providing a critical link between an individual's alcohol level and their movement patterns. Our core objective is to establish meaningful relationships between TAC levels and participant mobility, contributing to a deeper understanding of the data.
+
+
+#### Visualization  <a id="visualization1"></a>
+
+As illustrated in the first figure below, the movement behavior of user BK7610 is distinctly evident. This visualization is generated using the accelerometer dataset and its respective dimensions, including X, Y, and Z. It allows us to observe real-time variations in these specific directions, offering insights across various timestamps throughout the day. For a comprehensive understanding of the participants' behavior, similar plots have been created for all other users and are individually presented. Explore the remaining visualizations below.
+
+<div align="center">
+  <img src="./Images/Project1/1-1.png" alt="Image 2-2" width=500 style="display:inline-block; margin:0 10px;">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./Images/Project1/1-2.png" alt="Image 2-2" width=700 style="display:inline-block; margin:0 10px;">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./Images/Project1/1-3.png" alt="Image 2-2" width=700 style="display:inline-block; margin:0 10px;">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./Images/Project1/1-4.png" alt="Image 2-2" width=700 style="display:inline-block; margin:0 10px;">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./Images/Project1/1-5.png" alt="Image 2-2" width=700 style="display:inline-block; margin:0 10px;">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./Images/Project1/1-6.png" alt="Image 2-2" width=700 style="display:inline-block; margin:0 10px;">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./Images/Project1/1-7.png" alt="Image 2-2" width=700 style="display:inline-block; margin:0 10px;">
+</div>
+
+<br>
+
+Following our analysis of the accelerometer dataset, our focus now shifts to the TAC dataset, where we explore the relationship between each participant's TAC levels and the temporal variations within them. As depicted here, we present a comprehensive view of the TAC level fluctuations over the course of a day for all participants. Each participant is represented by a specific color, and a red threshold line at 0.08, signifying the legal TAC limit, enhances the interpretability of the visualization. Values above this threshold indicate intoxication, while values below signify sobriety, offering valuable insights into participants' alcohol levels during specific time intervals.
+
+
+<div align="center">
+  <img src="./Images/Project1/1-8.png" alt="Image 2-2" width=500 style="display:inline-block; margin:0 10px;">
+</div>
+
+<br>
+
+Also here Is the visualization of sober and intoxicated data, offering both frequency and percentage versions to enhance comprehension. It also illustrates the percentage distribution of sober and intoxicated values for each participant. These comprehensive visualizations encapsulate the essential insights within the dataset, highlighting significant relationships throughout its entirety. Moreover, our approach of providing detailed, individual visualizations for each participant serves as a valuable resource for future research opportunity.
+
+
+<div align="center">
+  <img src="./Images/Project1/1-9.png" alt="Image 2-2" width=700 style="display:inline-block; margin:0 10px;">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./Images/Project1/1-10.png" alt="Image 2-2" width=700 style="display:inline-block; margin:0 10px;">
+</div>
+
+<br>
 
 
 ---
